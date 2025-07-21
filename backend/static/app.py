@@ -11,7 +11,7 @@ model = tf.keras.models.load_model('model.h5')
 
 @app.route('/')
 def serve_index():
-    return send_from_directory(app.static_folder, 'index.html')
+    return app.send_static_file('index.html')
 
 @app.route('/predict', methods=['POST'])
 def predict():
