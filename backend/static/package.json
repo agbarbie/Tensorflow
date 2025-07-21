@@ -1,12 +1,12 @@
 {
   "name": "tensorflow-flask-app",
   "version": "1.0.0",
-  "description": "A simple Flask app deployed on Railway",
+  "description": "Flask app with TensorFlow deployed on Railway",
   "main": "app.py",
   "scripts": {
     "start": "python app.py"
   },
   "keywords": [],
-  "author": "Barbara Wangui",
-  "license": "MIT"
+  "author": "",
+  "license": "ISC"
 }
